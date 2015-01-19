@@ -9,6 +9,8 @@ This is the repo for the 2015H1 Kickoff hackathon.  The development environment 
 
 ## Instructions
 
+### Clone this git repo to your laptop
+
 ### Install Playa Vagrant vm
 
 ```
