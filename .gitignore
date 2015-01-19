@@ -1,4 +1,5 @@
 puppet-vagrant/modules
 puppet-vagrant/.vagrant
+#playa-mesos
 tmp
 .vagrant
