@@ -1,5 +1,4 @@
-vagrant/modules
-vagrant/.vagrant
-applications
+puppet-vagrant/modules
+puppet-vagrant/.vagrant
 tmp
 .vagrant
