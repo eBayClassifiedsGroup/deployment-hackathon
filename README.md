@@ -11,7 +11,7 @@ This is the repo for the 2015H1 Kickoff hackathon.  The development environment 
 
 ### Clone this git repo to your laptop
 
-### Install Playa Vagrant vm
+### Install Apache Vagrant vm
 
 ```
 cd apache 
@@ -22,7 +22,7 @@ Test installation by going to:
 
 (http://192.168.33.10)
 
-### Install Apache Vagrant vm
+### Install Playa Vagrant vm
 
 ```
 ./playa-bootstrap.sh
