@@ -3,3 +3,4 @@ puppet-vagrant/.vagrant
 playa-mesos
 tmp
 .vagrant
+.DS_Store

@@ -29,17 +29,25 @@ http://192.168.33.10
 cd playa-mesos
 vagrant up
 ```
-Test installation by going to: 
 
-http://10.141.141.10:8080
+Marathon UI: 
+  - http://10.141.141.10:8080
+
+Mesos admin UI:
+  - http://10.141.141.10:5050
 
 
 ### Other Information and Tips
 
+* We will use Python for developing the POC tool
+* It would be great to deploy a real application instead of just a "sample app".  You are encouraged to find a use-case than can be deployed in a stand-alone manner, that will still run without backend dependencies.  We at mobile.de will deploy our new public-search java application.
 * Playa is a project which installs a complete Mesos/Marathon sandbox. More information at:
   - https://github.com/mesosphere/playa-mesos
   - http://mesosphere.com/docs/getting-started/developer/vm-install/
-* The Marathon API documentation can be found here: https://mesosphere.github.io/marathon/docs/rest-api.html
-* Another useful link about deployments with Marathon: https://mesosphere.github.io/marathon/docs/deployments.html
-* We will use Python for developing the POC tool
-* It would be great to deploy a real application instead of just a "sample app".  You are encouraged to find a use-case than can be deployed in a stand-alone manner, that will still run without backend dependencies.  We at mobile.de will deploy our new public-search java application.
+* The Marathon API documentation:
+  - https://mesosphere.github.io/marathon/docs/rest-api.html
+* Other interesting Marathon links:
+  - https://mesosphere.github.io/marathon/docs/deployments.html
+  - https://mesosphere.github.io/marathon/docs/event-bus.html
+  - https://mesosphere.github.io/marathon/docs/service-discovery-load-balancing.html
+
